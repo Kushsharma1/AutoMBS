@@ -1,0 +1,2293 @@
+{
+  "kb_version": "v2-expanded",
+  "source": "https_www_mbsonline_gov_au_internet_mbsonline_publishing_nsf.xlsx",
+  "items": [
+    {
+      "kb_id": "mbs:5001",
+      "item_number": "5001",
+      "title": "Professional attendance, on a patient aged 4 years or over but under 75 years old, at a recognised emergency department of a private hospital by a specialist in the practice of the specialist\u2019s specia",
+      "meta": {
+        "category": "1",
+        "group": "A21",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 68.45
+      },
+      "eligibility": {
+        "attendance_level": "ordinary_4_74"
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "same_day_exclusive_with": [
+          "104",
+          "105",
+          "23",
+          "3",
+          "36",
+          "44",
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ],
+        "frequency": {
+          "per_day": 1
+        }
+      }
+    },
+    {
+      "kb_id": "mbs:5011",
+      "item_number": "5011",
+      "title": "Professional attendance, on a patient aged 75 years or over, at a recognised emergency department of a private hospital by a specialist in the practice of the specialist\u2019s specialty of emergency medic",
+      "meta": {
+        "category": "1",
+        "group": "A21",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 114.95
+      },
+      "eligibility": {
+        "attendance_level": "ordinary_75_plus"
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "same_day_exclusive_with": [
+          "104",
+          "105",
+          "23",
+          "3",
+          "36",
+          "44",
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ],
+        "frequency": {
+          "per_day": 1
+        }
+      }
+    },
+    {
+      "kb_id": "mbs:5012",
+      "item_number": "5012",
+      "title": "Professional attendance, on a patient aged 4 years or over but under 75 years old, at a recognised emergency department of a private hospital by a specialist in the practice of the specialist\u2019s specia",
+      "meta": {
+        "category": "1",
+        "group": "A21",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 180.15
+      },
+      "eligibility": {
+        "attendance_level": "more_than_ordinary_4_74"
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "same_day_exclusive_with": [
+          "104",
+          "105",
+          "23",
+          "3",
+          "36",
+          "44",
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ],
+        "frequency": {
+          "per_day": 1
+        }
+      }
+    },
+    {
+      "kb_id": "mbs:5016",
+      "item_number": "5016",
+      "title": "Professional attendance, on a patient aged 4 years or over but under 75 years old, at a recognised emergency department of a private hospital by a specialist in the practice of the specialist\u2019s specia",
+      "meta": {
+        "category": "1",
+        "group": "A21",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 304.15
+      },
+      "eligibility": {
+        "attendance_level": "high_4_74"
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "same_day_exclusive_with": [
+          "104",
+          "105",
+          "23",
+          "3",
+          "36",
+          "44",
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ],
+        "frequency": {
+          "per_day": 1
+        }
+      }
+    },
+    {
+      "kb_id": "mbs:5019",
+      "item_number": "5019",
+      "title": "Professional attendance, on a patient aged 75 years or over, at a recognised emergency department of a private hospital by a specialist in the practice of the specialist\u2019s specialty of emergency medic",
+      "meta": {
+        "category": "1",
+        "group": "A21",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 350.7
+      },
+      "eligibility": {
+        "attendance_level": "high_75_plus"
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "same_day_exclusive_with": [
+          "104",
+          "105",
+          "23",
+          "3",
+          "36",
+          "44",
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ],
+        "frequency": {
+          "per_day": 1
+        }
+      }
+    },
+    {
+      "kb_id": "mbs:14255",
+      "item_number": "14255",
+      "title": "Resuscitation of a patient provided for at least 30 minutes but less than 1 hour, by a specialist in the practice of the specialist\u2019s specialty of emergency medicine at a recognised emergency departme",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 173.05
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true,
+        "duration_min_minutes": 30,
+        "duration_max_minutes": 60
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "resuscitation",
+          "CPR",
+          "advanced life support",
+          "ALS",
+          "code blue"
+        ],
+        "all_of": [
+          [
+            "resuscitation"
+          ],
+          [
+            "30",
+            "min"
+          ]
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "EmergencyPhysician"
+        ],
+        "setting_allowed": [
+          "ED"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14256",
+      "item_number": "14256",
+      "title": "Resuscitation of a patient provided for at least 1 hour but less than 2 hours, by a specialist in the practice of the specialist\u2019s specialty of emergency medicine at a recognised emergency department ",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 332.85
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true,
+        "duration_min_minutes": 60,
+        "duration_max_minutes": 120
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "resuscitation",
+          "CPR",
+          "advanced life support",
+          "ALS",
+          "code blue"
+        ],
+        "all_of": [
+          [
+            "resuscitation"
+          ],
+          [
+            "1",
+            "hour"
+          ]
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "EmergencyPhysician"
+        ],
+        "setting_allowed": [
+          "ED"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14257",
+      "item_number": "14257",
+      "title": "Resuscitation of a patient provided for at least 2 hours, by a specialist in the practice of the specialist\u2019s specialty of emergency medicine at a recognised emergency department of a private hospital",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 662.9
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true,
+        "duration_min_minutes": 120
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "resuscitation",
+          "CPR",
+          "advanced life support",
+          "ALS",
+          "code blue"
+        ],
+        "all_of": [
+          [
+            "resuscitation"
+          ],
+          [
+            "2",
+            "hours"
+          ]
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "EmergencyPhysician"
+        ],
+        "setting_allowed": [
+          "ED"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14258",
+      "item_number": "14258",
+      "title": "Resuscitation of a patient provided for at least 30 minutes but less than 1 hour, by a medical practitioner (except a specialist in the practice of the specialist\u2019s specialty of emergency medicine) at",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 129.9
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true,
+        "duration_min_minutes": 30,
+        "duration_max_minutes": 60
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "resuscitation",
+          "CPR",
+          "advanced life support",
+          "ALS",
+          "code blue"
+        ],
+        "all_of": [
+          [
+            "resuscitation"
+          ],
+          [
+            "30",
+            "min"
+          ]
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "GP"
+        ],
+        "setting_allowed": [
+          "ED"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14259",
+      "item_number": "14259",
+      "title": "Resuscitation of a patient provided for at least 1 hour but less than 2 hours, by a medical practitioner (except a specialist in the practice of the specialist\u2019s specialty of emergency medicine) at a ",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 249.65
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true,
+        "duration_min_minutes": 60,
+        "duration_max_minutes": 120
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "resuscitation",
+          "CPR",
+          "advanced life support",
+          "ALS",
+          "code blue"
+        ],
+        "all_of": [
+          [
+            "resuscitation"
+          ],
+          [
+            "1",
+            "hour"
+          ]
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "GP"
+        ],
+        "setting_allowed": [
+          "ED"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14260",
+      "item_number": "14260",
+      "title": "Resuscitation of a patient provided for at least 2 hours, by a medical practitioner (except a specialist in the practice of the specialist\u2019s specialty of emergency medicine) at a recognised emergency ",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 497.15
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true,
+        "duration_min_minutes": 120
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "resuscitation",
+          "CPR",
+          "advanced life support",
+          "ALS",
+          "code blue"
+        ],
+        "all_of": [
+          [
+            "resuscitation"
+          ],
+          [
+            "2",
+            "hours"
+          ]
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "GP"
+        ],
+        "setting_allowed": [
+          "ED"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14263",
+      "item_number": "14263",
+      "title": "Minor procedure on a patient by a specialist in the practice of the specialist\u2019s specialty of emergency medicine at a recognised emergency department of a private hospital, in conjunction with an atte",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 60.95
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "suturing",
+          "suture",
+          "wound closure",
+          "tissue adhesive",
+          "steri-strips",
+          "foreign body removal",
+          "burn dressing",
+          "drainage",
+          "aspiration",
+          "arthrocentesis",
+          "lignocaine"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "EmergencyPhysician"
+        ],
+        "setting_allowed": [
+          "ED"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14264",
+      "item_number": "14264",
+      "title": "Procedure (except a minor procedure) on a patient by a specialist in the practice of the specialist\u2019s specialty of emergency medicine at a recognised emergency department of a private hospital, in con",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 137.15
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "suturing",
+          "suture",
+          "wound closure",
+          "tissue adhesive",
+          "steri-strips",
+          "foreign body removal",
+          "burn dressing",
+          "drainage",
+          "aspiration",
+          "arthrocentesis",
+          "lignocaine"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "EmergencyPhysician"
+        ],
+        "setting_allowed": [
+          "ED"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14265",
+      "item_number": "14265",
+      "title": "Minor procedure on a patient by a medical practitioner (except a specialist in the practice of the specialist\u2019s specialty of emergency medicine) at a recognised emergency department of a private hospi",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 45.65
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "suturing",
+          "suture",
+          "wound closure",
+          "tissue adhesive",
+          "steri-strips",
+          "foreign body removal",
+          "burn dressing",
+          "drainage",
+          "aspiration",
+          "arthrocentesis",
+          "lignocaine"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "GP"
+        ],
+        "setting_allowed": [
+          "ED"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14266",
+      "item_number": "14266",
+      "title": "Procedure (except a minor procedure) on a patient by a medical practitioner (except a specialist in the practice of the specialist\u2019s specialty of emergency medicine) at a recognised emergency departme",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 102.85
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "suturing",
+          "suture",
+          "wound closure",
+          "tissue adhesive",
+          "steri-strips",
+          "foreign body removal",
+          "burn dressing",
+          "drainage",
+          "aspiration",
+          "arthrocentesis",
+          "lignocaine"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "GP"
+        ],
+        "setting_allowed": [
+          "ED"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14270",
+      "item_number": "14270",
+      "title": "Management, without aftercare, of all fractures and dislocations suffered by a patient that: (a) is provided by a specialist in the practice of the specialist's specialty of emergency medicine in conj",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 153.75
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "fracture",
+          "fracture management",
+          "broken bone",
+          "dislocation",
+          "dislocation management",
+          "reduction",
+          "splint",
+          "cast",
+          "backslab",
+          "buddy tape",
+          "cam boot"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "EmergencyPhysician",
+          "GP"
+        ],
+        "setting_allowed": [
+          "ED"
+        ],
+        "requires_with_any_of": [
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14272",
+      "item_number": "14272",
+      "title": "Management, without aftercare, of all fractures and dislocations suffered by a patient that: (a) is provided by a medical practitioner (except a specialist in the practice of the specialist's specialt",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 115.35
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "fracture",
+          "fracture management",
+          "broken bone",
+          "dislocation",
+          "dislocation management",
+          "reduction",
+          "splint",
+          "cast",
+          "backslab",
+          "buddy tape",
+          "cam boot"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "EmergencyPhysician",
+          "GP"
+        ],
+        "setting_allowed": [
+          "ED"
+        ],
+        "requires_with_any_of": [
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14277",
+      "item_number": "14277",
+      "title": "Application of chemical or physical restraint of a patient by a specialist in the practice of the specialist\u2019s specialty of emergency medicine at a recognised emergency department of a private hospita",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 173.05
+      },
+      "eligibility": {
+        "must_pair_with_attendance": false
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "restraint",
+          "chemical restraint",
+          "physical restraint",
+          "sedation",
+          "agitation"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "EmergencyPhysician",
+          "GP"
+        ],
+        "setting_allowed": [
+          "ED"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14278",
+      "item_number": "14278",
+      "title": "Application of chemical or physical restraint of a patient by a medical practitioner (except a specialist in the practice of the specialist\u2019s specialty of emergency medicine) at a recognised emergency",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 129.9
+      },
+      "eligibility": {
+        "must_pair_with_attendance": false
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "restraint",
+          "chemical restraint",
+          "physical restraint",
+          "sedation",
+          "agitation"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "EmergencyPhysician",
+          "GP"
+        ],
+        "setting_allowed": [
+          "ED"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14280",
+      "item_number": "14280",
+      "title": "Anaesthesia (whether general anaesthesia or not) of a patient that: (a) is managed by a specialist in the practice of the specialist\u2019s specialty of emergency medicine at a recognised emergency departm",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 173.05
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "anaesthesia",
+          "local anaesthetic",
+          "digital block",
+          "nerve block",
+          "regional block",
+          "block for pain"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "EmergencyPhysician",
+          "GP"
+        ],
+        "setting_allowed": [
+          "ED"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14283",
+      "item_number": "14283",
+      "title": "Anaesthesia (whether general anaesthesia or not) of a patient that: (a) is managed by a medical practitioner (except a specialist in the practice of the specialist\u2019s specialty of emergency medicine) a",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 129.9
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "anaesthesia",
+          "local anaesthetic",
+          "digital block",
+          "nerve block",
+          "regional block",
+          "block for pain"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "EmergencyPhysician",
+          "GP"
+        ],
+        "setting_allowed": [
+          "ED"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14285",
+      "item_number": "14285",
+      "title": "Emergent intubation, airway management or both of a patient that: (a) is managed by a specialist in the practice of the specialist\u2019s specialty of emergency medicine at a recognised emergency departmen",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 173.05
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "intubation",
+          "airway",
+          "airway management",
+          "ET tube",
+          "laryngoscopy",
+          "ventilation",
+          "bag-valve-mask",
+          "BVM"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "EmergencyPhysician"
+        ],
+        "setting_allowed": [
+          "ED"
+        ],
+        "requires_with_any_of": [
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:14288",
+      "item_number": "14288",
+      "title": "Emergent intubation, airway management or both of a patient that: (a) is managed by a medical practitioner (except a specialist in the practice of the specialist\u2019s specialty of emergency medicine) at ",
+      "meta": {
+        "category": "3",
+        "group": "T1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 129.9
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "intubation",
+          "airway",
+          "airway management",
+          "ET tube",
+          "laryngoscopy",
+          "ventilation",
+          "bag-valve-mask",
+          "BVM"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "role_allowed": [
+          "GP"
+        ],
+        "setting_allowed": [
+          "ED"
+        ],
+        "requires_with_any_of": [
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ]
+      }
+    },
+    {
+      "kb_id": "mbs:23",
+      "item_number": "23",
+      "title": "Professional attendance by a general practitioner at consulting rooms (other than a service to which another item in this Schedule applies), lasting at least 6 minutes and less than 20 minutes and inc",
+      "meta": {
+        "category": "1",
+        "group": "A1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 43.9
+      },
+      "eligibility": {},
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "same_day_exclusive_with": [
+          "104",
+          "105",
+          "23",
+          "3",
+          "36",
+          "44",
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ],
+        "frequency": {
+          "per_day": 1
+        }
+      }
+    },
+    {
+      "kb_id": "mbs:24",
+      "item_number": "24",
+      "title": "Professional attendance by a general practitioner (other than attendance at consulting rooms or a residential aged care facility or a service to which another item in this Schedule applies), lasting a",
+      "meta": {
+        "category": "1",
+        "group": "A1",
+        "item_type": "S",
+        "fee_type": "D",
+        "fee_start": "nan",
+        "schedule_fee": null
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:36",
+      "item_number": "36",
+      "title": "Professional attendance by a general practitioner at consulting rooms (other than a service to which another item in the table applies), lasting at least 20 minutes and including any of the following ",
+      "meta": {
+        "category": "1",
+        "group": "A1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 84.9
+      },
+      "eligibility": {},
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "same_day_exclusive_with": [
+          "104",
+          "105",
+          "23",
+          "3",
+          "36",
+          "44",
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ],
+        "frequency": {
+          "per_day": 1
+        }
+      }
+    },
+    {
+      "kb_id": "mbs:37",
+      "item_number": "37",
+      "title": "Professional attendance by a general practitioner (other than attendance at consulting rooms or a residential aged care facility or a service to which another item in the table applies), lasting at le",
+      "meta": {
+        "category": "1",
+        "group": "A1",
+        "item_type": "S",
+        "fee_type": "D",
+        "fee_start": "nan",
+        "schedule_fee": null
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:44",
+      "item_number": "44",
+      "title": "Professional attendance by a general practitioner at consulting rooms (other than a service to which another item in the table applies), lasting at least 40 minutes and including any of the following ",
+      "meta": {
+        "category": "1",
+        "group": "A1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 125.1
+      },
+      "eligibility": {},
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "same_day_exclusive_with": [
+          "104",
+          "105",
+          "23",
+          "3",
+          "36",
+          "44",
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ],
+        "frequency": {
+          "per_day": 1
+        }
+      }
+    },
+    {
+      "kb_id": "mbs:47",
+      "item_number": "47",
+      "title": "Professional attendance by a general practitioner (other than attendance at consulting rooms or a residential aged care facility or a service to which another item in the table applies), lasting at le",
+      "meta": {
+        "category": "1",
+        "group": "A1",
+        "item_type": "S",
+        "fee_type": "D",
+        "fee_start": "nan",
+        "schedule_fee": null
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:57",
+      "item_number": "57",
+      "title": "Professional attendance at consulting rooms lasting more than 45 minutes, but not more than 60 minutes (other than a service to which any other item applies) by:(a) a medical practitioner who is not a",
+      "meta": {
+        "category": "1",
+        "group": "A2",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.12.1991",
+        "schedule_fee": 61.0
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:65",
+      "item_number": "65",
+      "title": "Professional attendance (other than an attendance at consulting rooms or a residential aged care facility or a service to which any other item in this Schedule applies) lasting more than 45 minutes bu",
+      "meta": {
+        "category": "1",
+        "group": "A2",
+        "item_type": "S",
+        "fee_type": "D",
+        "fee_start": "nan",
+        "schedule_fee": null
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:104",
+      "item_number": "104",
+      "title": "Professional attendance at consulting rooms or hospital by a specialist in the practice of the specialist\u2019s specialty after referral of the patient to the specialist\u2014initial attendance in a single cou",
+      "meta": {
+        "category": "1",
+        "group": "A3",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 101.3
+      },
+      "eligibility": {},
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "same_day_exclusive_with": [
+          "104",
+          "105",
+          "23",
+          "3",
+          "36",
+          "44",
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ],
+        "frequency": {
+          "per_day": 1
+        }
+      }
+    },
+    {
+      "kb_id": "mbs:105",
+      "item_number": "105",
+      "title": "Professional attendance by a specialist in the practice of the specialist\u2019s specialty following referral of the patient to the specialist\u2014an attendance after the initial attendance in a single course ",
+      "meta": {
+        "category": "1",
+        "group": "A3",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 50.95
+      },
+      "eligibility": {},
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "same_day_exclusive_with": [
+          "104",
+          "105",
+          "23",
+          "3",
+          "36",
+          "44",
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ],
+        "frequency": {
+          "per_day": 1
+        }
+      }
+    },
+    {
+      "kb_id": "mbs:106",
+      "item_number": "106",
+      "title": "Professional attendance by a specialist in the practice of the specialist's specialty of ophthalmology and following referral of the patient to the specialist-an attendance (other than a second or sub",
+      "meta": {
+        "category": "1",
+        "group": "A3",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 84.05
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:107",
+      "item_number": "107",
+      "title": "Professional attendance by a specialist in the practice of the specialist's specialty following referral of the patient to the specialist-an attendance (other than a second or subsequent attendance in",
+      "meta": {
+        "category": "1",
+        "group": "A3",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 148.65
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:108",
+      "item_number": "108",
+      "title": "Professional attendance by a specialist in the practice of the specialist's specialty following referral of the patient to the specialist-each attendance after the first in a single course of treatmen",
+      "meta": {
+        "category": "1",
+        "group": "A3",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 94.1
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:109",
+      "item_number": "109",
+      "title": "Professional attendance by a specialist in the practice of the specialist's specialty of ophthalmology following referral of the patient to the specialist-an attendance (other than a second or subsequ",
+      "meta": {
+        "category": "1",
+        "group": "A3",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 228.3
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:110",
+      "item_number": "110",
+      "title": "Professional attendance at consulting rooms or hospital, by a consultant physician in the practice of the consultant physician's specialty (other than psychiatry) following referral of the patient to ",
+      "meta": {
+        "category": "1",
+        "group": "A4",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 178.7
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:111",
+      "item_number": "111",
+      "title": "Professional attendance at consulting rooms or in hospital by a specialist in the practice of the specialist's specialty following referral of the patient to the specialist by a referring practitioner",
+      "meta": {
+        "category": "1",
+        "group": "A3",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 50.95
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:115",
+      "item_number": "115",
+      "title": "Professional attendance at consulting rooms or in hospital on a day by a medical practitioner (the attending practitioner) who is a specialist or consultant physician in the practice of the attending ",
+      "meta": {
+        "category": "1",
+        "group": "A3",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 50.95
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:116",
+      "item_number": "116",
+      "title": "Professional attendance at consulting rooms or hospital, by a consultant physician in the practice of the consultant physician's specialty (other than psychiatry) following referral of the patient to ",
+      "meta": {
+        "category": "1",
+        "group": "A4",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 89.4
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:117",
+      "item_number": "117",
+      "title": "Professional attendance at consulting rooms or in hospital, by a consultant physician in the practice of the consultant physician's specialty (other than psychiatry) following referral of the patient ",
+      "meta": {
+        "category": "1",
+        "group": "A4",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 89.4
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:119",
+      "item_number": "119",
+      "title": "Professional attendance at consulting rooms or hospital, by a consultant physician in the practice of the consultant physician's specialty (other than psychiatry) following referral of the patient to ",
+      "meta": {
+        "category": "1",
+        "group": "A4",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 50.95
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:120",
+      "item_number": "120",
+      "title": "Professional attendance at consulting rooms or in hospital by a consultant physician in the practice of the consultant physician\u2019s specialty (other than psychiatry) following referral of the patient t",
+      "meta": {
+        "category": "1",
+        "group": "A4",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 50.95
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:122",
+      "item_number": "122",
+      "title": "Professional attendance at a place other than consulting rooms or hospital, by a consultant physician in the practice of the consultant physician's specialty (other than psychiatry) following referral",
+      "meta": {
+        "category": "1",
+        "group": "A4",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 216.75
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:123",
+      "item_number": "123",
+      "title": "Professional attendance by a general practitioner at consulting rooms (other than a service to which another item in this Schedule applies), lasting at least 60 minutes and including any of the follow",
+      "meta": {
+        "category": "1",
+        "group": "A1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 202.65
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:124",
+      "item_number": "124",
+      "title": "Professional attendance by a general practitioner (other than attendance at consulting rooms or a residential aged care facility or a service to which another item in this Schedule applies), lasting a",
+      "meta": {
+        "category": "1",
+        "group": "A1",
+        "item_type": "S",
+        "fee_type": "D",
+        "fee_start": "nan",
+        "schedule_fee": null
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:125",
+      "item_number": "125",
+      "title": "Professional attendance lasting at least 45 minutes at consulting rooms or hospital, by a specialist in the practice of the specialist\u2019s specialty of gynaecology, following referral of the patient to ",
+      "meta": {
+        "category": "1",
+        "group": "A3",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 178.7
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:126",
+      "item_number": "126",
+      "title": "Professional attendance lasting at least 45 minutes at consulting rooms or hospital, by a specialist in the practice of the specialist\u2019s specialty of gynaecology, following referral of the patient to ",
+      "meta": {
+        "category": "1",
+        "group": "A3",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 89.4
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:127",
+      "item_number": "127",
+      "title": "Video attendance lasting at least 45 minutes by a specialist in the practice of the specialist\u2019s specialty of gynaecology, following referral of the patient to the specialist by a referring practition",
+      "meta": {
+        "category": "1",
+        "group": "A3",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 178.7
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:128",
+      "item_number": "128",
+      "title": "Professional attendance at a place other than consulting rooms or hospital, by a consultant physician in the practice of the consultant physician's specialty (other than psychiatry) following referral",
+      "meta": {
+        "category": "1",
+        "group": "A4",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 131.1
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:129",
+      "item_number": "129",
+      "title": "Video attendance lasting at least 45 minutes by a specialist in the practice of the specialist\u2019s speciality of gynaecology, following referral of the patient to the specialist by a referring practitio",
+      "meta": {
+        "category": "1",
+        "group": "A3",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 89.4
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:131",
+      "item_number": "131",
+      "title": "Professional attendance at a place other than consulting rooms or hospital, by a consultant physician in the practice of the consultant physician's specialty (other than psychiatry) following referral",
+      "meta": {
+        "category": "1",
+        "group": "A4",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 94.45
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:3",
+      "item_number": "3",
+      "title": "Professional attendance at consulting rooms (other than a service to which another item applies) by a general practitioner for an obvious problem characterised by the straightforward nature of the tas",
+      "meta": {
+        "category": "1",
+        "group": "A1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 20.05
+      },
+      "eligibility": {},
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": "",
+      "restrictions": {
+        "same_day_exclusive_with": [
+          "104",
+          "105",
+          "23",
+          "3",
+          "36",
+          "44",
+          "5001",
+          "5011",
+          "5012",
+          "5016",
+          "5019"
+        ],
+        "frequency": {
+          "per_day": 1
+        }
+      }
+    },
+    {
+      "kb_id": "mbs:4",
+      "item_number": "4",
+      "title": "Professional attendance by a general practitioner (other than attendance at consulting rooms or a residential aged care facility or a service to which another item in the table applies) that requires ",
+      "meta": {
+        "category": "1",
+        "group": "A1",
+        "item_type": "S",
+        "fee_type": "D",
+        "fee_start": "nan",
+        "schedule_fee": null
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:52",
+      "item_number": "52",
+      "title": "Professional attendance at consulting rooms of not more than 5 minutes in duration (other than a service to which any other item applies)-each attendance, by: (a) a medical practitioner (who is not a ",
+      "meta": {
+        "category": "1",
+        "group": "A2",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.12.1991",
+        "schedule_fee": 11.0
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:53",
+      "item_number": "53",
+      "title": "Professional attendance at consulting rooms of more than 5 minutes in duration but not more than 25 minutes (other than a service to which any other item applies)-each attendance, by: (a) a medical pr",
+      "meta": {
+        "category": "1",
+        "group": "A2",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.12.1991",
+        "schedule_fee": 21.0
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:54",
+      "item_number": "54",
+      "title": "Professional attendance at consulting rooms of more than 25 minutes in duration but not more than 45 minutes (other than a service to which any other item applies)-each attendance, by: (a) a medical p",
+      "meta": {
+        "category": "1",
+        "group": "A2",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.12.1991",
+        "schedule_fee": 38.0
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:58",
+      "item_number": "58",
+      "title": "Professional attendance (other than an attendance at consulting rooms or a residential aged care facility or a service to which any other item in the table applies), not more than 5 minutes in duratio",
+      "meta": {
+        "category": "1",
+        "group": "A2",
+        "item_type": "S",
+        "fee_type": "D",
+        "fee_start": "nan",
+        "schedule_fee": null
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:59",
+      "item_number": "59",
+      "title": "Professional attendance (other than an attendance at consulting rooms or a residential aged care facility or a service to which any other item in the table applies) of more than 5 minutes in duration ",
+      "meta": {
+        "category": "1",
+        "group": "A2",
+        "item_type": "S",
+        "fee_type": "D",
+        "fee_start": "nan",
+        "schedule_fee": null
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:60",
+      "item_number": "60",
+      "title": "Professional attendance (other than an attendance at consulting rooms or a residential aged care facility or a service to which any other item in the table applies) of more than 25 minutes in duration",
+      "meta": {
+        "category": "1",
+        "group": "A2",
+        "item_type": "S",
+        "fee_type": "D",
+        "fee_start": "nan",
+        "schedule_fee": null
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "consultation",
+          "attendance",
+          "visit",
+          "seen by doctor",
+          "review"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:11503",
+      "item_number": "11503",
+      "title": "Complex measurement of properties of the respiratory system, including the lungs and respiratory muscles, that is performed: (a) in a respiratory laboratory; and (b) under the supervision of a special",
+      "meta": {
+        "category": "2",
+        "group": "D1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 161.75
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "12-lead",
+          "ECG",
+          "FEV1",
+          "FVC",
+          "electrocardiogram",
+          "spirometry"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:11505",
+      "item_number": "11505",
+      "title": "Measurement of spirometry, that: (a) involves a permanently recorded tracing, performed before and after inhalation of a bronchodilator; and (b) is performed to confirm diagnosis of: (i) asthma; or (i",
+      "meta": {
+        "category": "2",
+        "group": "D1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 48.05
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "12-lead",
+          "ECG",
+          "FEV1",
+          "FVC",
+          "electrocardiogram",
+          "spirometry"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:11506",
+      "item_number": "11506",
+      "title": "Measurement of spirometry, that: (a) involves a permanently recorded tracing, performed before and after inhalation of a bronchodilator; and (b) is performed to: (i) confirm diagnosis of chronic obstr",
+      "meta": {
+        "category": "2",
+        "group": "D1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 24.0
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "12-lead",
+          "ECG",
+          "FEV1",
+          "FVC",
+          "electrocardiogram",
+          "spirometry"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:11507",
+      "item_number": "11507",
+      "title": "Measurement of spirometry: (a) that includes continuous measurement of the relationship between flow and volume during expiration or during expiration and inspiration, performed before and after inhal",
+      "meta": {
+        "category": "2",
+        "group": "D1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 116.9
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "12-lead",
+          "ECG",
+          "FEV1",
+          "FVC",
+          "electrocardiogram",
+          "spirometry"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:11508",
+      "item_number": "11508",
+      "title": "Maximal symptom\u2011limited incremental exercise test using a calibrated cycle ergometer or treadmill, if: (a) the test is performed for the evaluation of: (i) breathlessness of uncertain cause from tests",
+      "meta": {
+        "category": "2",
+        "group": "D1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 339.25
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "12-lead",
+          "ECG",
+          "FEV1",
+          "FVC",
+          "electrocardiogram",
+          "spirometry"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "kb_id": "mbs:11512",
+      "item_number": "11512",
+      "title": "Measurement of spirometry: (a) that includes continuous measurement of the relationship between flow and volume during expiration or during expiration and inspiration, performed before and after inhal",
+      "meta": {
+        "category": "2",
+        "group": "D1",
+        "item_type": "S",
+        "fee_type": "N",
+        "fee_start": "01.07.2025",
+        "schedule_fee": 72.1
+      },
+      "eligibility": {
+        "must_pair_with_attendance": true
+      },
+      "exclusions": {},
+      "triggers": {
+        "any_of": [
+          "12-lead",
+          "ECG",
+          "FEV1",
+          "FVC",
+          "electrocardiogram",
+          "spirometry"
+        ]
+      },
+      "notes": ""
+    }
+  ]
+}

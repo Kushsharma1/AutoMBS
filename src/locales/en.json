@@ -1,38 +1,37 @@
 {
   "Index": {
-    "meta_title": "SaaS Template - The perfect SaaS template to build and scale your business with ease.",
-    "meta_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS."
+    "meta_title": "AutoMBS - AI-Assisted Medical Coding for Australian Healthcare",
+    "meta_description": "Streamline hospital coding with AI-powered MBS code suggestions, clinical note analysis, and automated compliance reporting."
   },
   "Navbar": {
     "sign_in": "Sign In",
-    "sign_up": "Sign Up",
-    "product": "Product",
-    "docs": "Docs",
-    "blog": "Blog",
-    "community": "Community",
-    "company": "Company"
+    "sign_up": "Sign Up"
   },
   "Hero": {
-    "follow_twitter": "Follow @Ixartz on Twitter",
-    "title": "The perfect <important>SaaS template</important> to build and scale your business with ease.",
-    "description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS.",
-    "primary_button": "Get Started",
-    "secondary_button": "Star on GitHub"
+    "title": "AI-Powered <important>Medical Coding</important> for Australian Healthcare",
+    "description": "Transform clinical notes into accurate MBS codes with AI assistance. Reduce coding time, improve accuracy, and ensure compliance with Medicare Benefits Schedule requirements.",
+    "primary_button": "Generate MBS Codes",
+    "secondary_button": "Learn More"
   },
   "Sponsors": {
     "title": "Sponsored by"
   },
   "Features": {
-    "section_subtitle": "Features",
-    "section_title": "Unlock the Full Potential of the SaaS Template",
-    "section_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS.",
-    "feature1_title": "Node.js",
-    "feature2_title": "React",
-    "feature3_title": "Tailwind CSS",
-    "feature4_title": "TypeScript",
-    "feature5_title": "Shadcn UI",
-    "feature6_title": "ESLint",
-    "feature_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS."
+    "section_subtitle": "Core Features",
+    "section_title": "Streamline Medical Coding with AI Intelligence",
+    "section_description": "AutoMBS combines artificial intelligence with healthcare expertise to transform clinical documentation into accurate MBS codes.",
+    "feature1_title": "AI Note Analysis",
+    "feature2_title": "Smart Code Suggestions",
+    "feature3_title": "Evidence Tracking",
+    "feature4_title": "Compliance Reporting",
+    "feature5_title": "Accuracy Metrics",
+    "feature6_title": "Workflow Integration",
+    "feature1_description": "Advanced AI processes clinical notes to identify key medical procedures, diagnoses, and billable services.",
+    "feature2_description": "Get intelligent MBS code recommendations with confidence scores and alternative suggestions.",
+    "feature3_description": "Track supporting evidence from clinical notes for each suggested code to ensure compliance.",
+    "feature4_description": "Generate comprehensive reports for auditing and quality assurance purposes.",
+    "feature5_description": "Monitor coding accuracy and coverage rates to continuously improve performance.",
+    "feature6_description": "Seamlessly integrate with existing hospital coding workflows and systems."
   },
   "Pricing": {
     "section_subtitle": "Features",
@@ -61,19 +60,14 @@
     "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam enim dui, id consequat turpis ullamcorper ac. Mauris id quam dolor. Nullam eu egestas turpis. Proin risus elit, sollicitudin in mi a, accumsan euismod turpis. In euismod mi sed diam tristique hendrerit."
   },
   "CTA": {
-    "title": "You are ready?",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "button_text": "Star on GitHub"
+    "title": "Ready to Transform Medical Coding?",
+    "description": "Join the future of healthcare coding with AI-powered MBS code suggestions and automated compliance reporting.",
+    "button_text": "Generate MBS Codes"
   },
   "Footer": {
-    "product": "Product",
-    "docs": "Docs",
-    "blog": "Blog",
-    "community": "Community",
-    "company": "Company",
     "terms_of_service": "Terms Of Service",
     "privacy_policy": "Privacy Policy",
-    "designed_by": "Designed by <author></author>."
+    "designed_by": "Built for NexGenAI Hackathon by <author>Kush Sharma</author>."
   },
   "ProtectFallback": {
     "not_enough_permission": "You do not have the permissions to perform this action"
@@ -88,31 +82,46 @@
   },
   "DashboardLayout": {
     "home": "Home",
-    "todos": "Todos",
-    "members": "Members",
-    "billing": "Billing",
+    "records": "Coding Records",
     "settings": "Settings"
   },
   "Dashboard": {
-    "meta_title": "SaaS Template Dashboard",
-    "meta_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS."
+    "meta_title": "AutoMBS Dashboard",
+    "meta_description": "Your AI-powered medical coding workspace for MBS code analysis and clinical note processing."
   },
   "DashboardIndex": {
-    "title_bar": "Dashboard",
-    "title_bar_description": "Welcome to your dashboard",
-    "message_state_title": "Let's get started",
-    "message_state_description": "You can customize this page by editing the file at <code>dashboard/page.tsx</code>",
-    "message_state_button": "Star on GitHub",
-    "message_state_alternative": "Want more features using the same stack? Try <url></url>."
+    "title_bar": "Medicare Benefits Schedule Assistant",
+    "title_bar_description": "AI-powered MBS code generation workspace",
+    "generate_card_title": "Generate MBS Codes",
+    "generate_card_description": "Upload clinical notes and get AI-powered Medicare Benefits Schedule code suggestions with detailed explanations.",
+    "generate_card_button": "Start New Analysis",
+    "records_card_title": "Existing Records",
+    "records_card_description": "View and manage your previous MBS code analyses and clinical note submissions.",
+    "records_card_button": "View Records"
+  },
+  "DashboardRecords": {
+    "title_bar": "MBS Analysis Records",
+    "title_bar_description": "View and manage your Medicare Benefits Schedule analyses and AI suggestions.",
+    "message_state_title": "No Analysis Records Yet",
+    "message_state_description": "Start by uploading clinical notes from the dashboard to create your first MBS analysis record."
+  },
+  "DashboardSettings": {
+    "title_bar": "Settings",
+    "title_bar_description": "Manage your account preferences and coding configurations.",
+    "message_state_title": "Account Settings",
+    "message_state_description": "Configure your AutoMBS preferences and account details."
+  },
+  "DashboardGenerate": {
+    "title_bar": "Generate MBS Codes",
+    "title_bar_description": "Upload clinical notes to generate Medicare Benefits Schedule codes with AI assistance.",
+    "message_state_title": "MBS Code Generator",
+    "message_state_description": "Upload clinical notes or consultation details to receive AI-powered Medicare Benefits Schedule code suggestions with detailed explanations and supporting evidence."
   },
   "UserProfile": {
     "title_bar": "User Profile",
     "title_bar_description": "View and manage your user profile"
   },
-  "OrganizationProfile": {
-    "title_bar": "Organization Management",
-    "title_bar_description": "Manage your organization"
-  },
+
   "Billing": {
     "title_bar": "Billing",
     "title_bar_description": "Manage your billing and subscription",

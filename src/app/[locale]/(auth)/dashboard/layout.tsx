@@ -22,24 +22,7 @@ export default function DashboardLayout(props: { children: React.ReactNode }) {
     <>
       <div className="shadow-md">
         <div className="mx-auto flex max-w-screen-xl items-center justify-between px-3 py-4">
-          <DashboardHeader
-            menu={[
-              {
-                href: '/dashboard',
-                label: t('home'),
-              },
-              // PRO: Link to the /dashboard/todos page
-              {
-                href: '/dashboard/organization-profile/organization-members',
-                label: t('members'),
-              },
-              {
-                href: '/dashboard/organization-profile',
-                label: t('settings'),
-              },
-              // PRO: Link to the /dashboard/billing page
-            ]}
-          />
+          <DashboardHeader menu={[]} />
         </div>
       </div>
 

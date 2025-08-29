@@ -1,4 +1,4 @@
-import { GitHubLogoIcon } from '@radix-ui/react-icons';
+import { FileTextIcon } from '@radix-ui/react-icons';
 import { useTranslations } from 'next-intl';
 
 import { buttonVariants } from '@/components/ui/buttonVariants';
@@ -15,10 +15,10 @@ export const CTA = () => {
         description={t('description')}
         buttons={(
           <a
-            className={buttonVariants({ variant: 'outline', size: 'lg' })}
-            href="https://github.com/ixartz/SaaS-Boilerplate"
+            className={buttonVariants({ size: 'lg' })}
+            href="/sign-up"
           >
-            <GitHubLogoIcon className="mr-2 size-5" />
+            <FileTextIcon className="mr-2 size-5" />
             {t('button_text')}
           </a>
         )}

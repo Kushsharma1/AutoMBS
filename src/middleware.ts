@@ -17,16 +17,22 @@ const intlMiddleware = createMiddleware({
 const isProtectedRoute = createRouteMatcher([
   '/dashboard(.*)',
   '/:locale/dashboard(.*)',
-  '/onboarding(.*)',
-  '/:locale/onboarding(.*)',
-  '/api(.*)',
-  '/:locale/api(.*)',
+]);
+
+const isProtectedApiRoute = createRouteMatcher([
+  '/api/records(.*)',
+  '/api/save-record(.*)',
 ]);
 
 export default function middleware(
   request: NextRequest,
   event: NextFetchEvent,
 ) {
+  // EMERGENCY: Skip ALL API routes for demo - handle auth in routes
+  if (request.nextUrl.pathname.startsWith('/api/')) {
+    return NextResponse.next();
+  }
+
   if (
     request.nextUrl.pathname.includes('/sign-in')
     || request.nextUrl.pathname.includes('/sign-up')
@@ -45,22 +51,6 @@ export default function middleware(
         });
       }
 
-      const authObj = await auth();
-
-      if (
-        authObj.userId
-        && !authObj.orgId
-        && req.nextUrl.pathname.includes('/dashboard')
-        && !req.nextUrl.pathname.endsWith('/organization-selection')
-      ) {
-        const orgSelection = new URL(
-          '/onboarding/organization-selection',
-          req.url,
-        );
-
-        return NextResponse.redirect(orgSelection);
-      }
-
       return intlMiddleware(req);
     })(request, event);
   }
@@ -69,5 +59,12 @@ export default function middleware(
 }
 
 export const config = {
-  matcher: ['/((?!.+\\.[\\w]+$|_next|monitoring).*)', '/', '/(api|trpc)(.*)'], // Also exclude tunnelRoute used in Sentry from the matcher
+  matcher: [
+    // Match all paths except:
+    // - API routes (/api/*)
+    // - Static files (files with extensions)
+    // - Next.js internal files (_next/*)
+    // - Monitoring routes
+    '/((?!api|_next/static|_next/image|favicon.ico|.*\\..*).*)' 
+  ],
 };
