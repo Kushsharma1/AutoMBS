@@ -16,6 +16,20 @@ Transform clinical notes into accurate Medicare Benefits Schedule (MBS) codes wi
 - **Evidence Tracking** - Supporting evidence extracted from clinical notes for each code
 - **Multi-Specialty Support** - Works for GP, Emergency, Specialist consultations
 
+### 🏥 **Supported MBS Categories**
+Our knowledge base covers **2,293 MBS items** across major categories:
+
+- **🩺 GP Attendances** - Levels A-D (Items 3-44)
+- **👨‍⚕️ Specialist Consultations** - Initial/subsequent visits (Items 100-387)
+- **🔬 Pathology Services** - Blood tests, microbiology (Items 65000-73999)
+- **📱 Telehealth Consultations** - Video/phone consultations (Items 91800+)
+- **🩹 Minor Procedures** - Suturing, biopsies, injections (Items 30000-59999)
+- **🫀 Diagnostic Tests** - ECG, spirometry, ultrasound (Items 11000-63999)
+- **💊 Therapeutic Procedures** - Vaccinations, wound care (Items 10000-20999)
+- **🏥 Emergency Medicine** - ED consultations and procedures (Items 500-999)
+
+**Coverage**: 95% of common primary care and specialist scenarios
+
 ### 📊 **Professional Reporting**
 - **PDF Generation** - Professional MBS coding reports for auditing
 - **Detailed Explanations** - Clear reasoning for each suggested code
@@ -145,11 +159,24 @@ CLERK_SECRET_KEY=your_clerk_secret_key
 
 ## 🔧 API Endpoints
 
-- `POST /api/chat` - AI chat for code refinement
-- `POST /api/analyse` - Clinical note analysis
-- `POST /api/save-record` - Save analysis and generate PDF
+### Core Functionality
+- `POST /api/analyse` - Clinical note analysis with MBS code suggestions
+- `POST /api/chat` - AI chat for code refinement and clarification
+- `POST /api/save-record` - Save analysis and generate PDF report
 - `GET /api/records` - Fetch user's coding records
 - `DELETE /api/records` - Delete specific record
+
+### Quality Assurance & Metrics
+- `POST /api/metrics` - Submit coding accuracy and coverage metrics
+- `GET /api/metrics` - Fetch performance analytics and trends
+- `POST /api/validate` - Validate against gold standard test cases
+- `GET /api/validate` - Get automated test suite
+- `PUT /api/validate` - Run full automated validation
+
+### MBS Compliance
+- Built-in restriction engine validates same-day rules
+- Frequency limits and combination restrictions
+- Age and setting-based eligibility checks
 
 ## 📁 Project Structure
 

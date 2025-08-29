@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { loadKB, findCandidatesByTriggers, getAttendanceItems, validateRestrictions, type KBItem } from '@/libs/kb';
+import { MBSRestrictionEngine } from '@/libs/mbs-restrictions';
 import { callGemini, SYSTEM_PROMPT, type LLMSuggestion } from '@/libs/llm/gemini';
 
 export async function POST(request: NextRequest) {
@@ -111,13 +112,23 @@ export async function POST(request: NextRequest) {
     // Sort by confidence (highest first)
     validatedSuggestions.sort((a, b) => b.confidence - a.confidence);
 
+    // Apply MBS restriction rules
+    const restrictionEngine = new MBSRestrictionEngine();
+    const restrictionResults = restrictionEngine.validateCodes(
+      validatedSuggestions.map(s => s.item_number),
+      { age: data.age, setting: data.setting }
+    );
+
     return NextResponse.json({
       items: validatedSuggestions,
+      restrictions: restrictionResults,
       clarifications_needed: llmResponse.clarifications_needed || [],
       metadata: {
         total_kb_items: kb.items.length,
         candidates_considered: allCandidates.length,
-        analysis_timestamp: new Date().toISOString()
+        analysis_timestamp: new Date().toISOString(),
+        restriction_violations: restrictionResults.violations.length,
+        restriction_warnings: restrictionResults.warnings.length
       }
     });
 
