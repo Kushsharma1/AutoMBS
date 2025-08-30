@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { CheckIcon, Cross1Icon } from '@radix-ui/react-icons';
+import { CheckCircleIcon, XCircleIcon } from '@radix-ui/react-icons';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { TitleBar } from '@/features/dashboard/TitleBar';
@@ -190,7 +190,7 @@ const ChatPage = () => {
                             MBS {suggestion.mbs_item}
                           </h4>
                           {selectedCodes.has(suggestion.mbs_item) && (
-                            <CheckIcon className="ml-2 h-5 w-5 text-blue-600" />
+                            <CheckCircleIcon className="ml-2 h-5 w-5 text-blue-600" />
                           )}
                         </div>
                         <div className="flex items-center space-x-2">
@@ -223,7 +223,7 @@ const ChatPage = () => {
                       <div className="flex space-x-2 text-xs">
                         {Object.entries(suggestion.restrictions_checked).map(([key, value]) => (
                           <span key={key} className={`flex items-center ${value ? 'text-green-600' : 'text-red-600'}`}>
-                            {value ? <CheckIcon className="h-3 w-3 mr-1" /> : <Cross1Icon className="h-3 w-3 mr-1" />}
+                            {value ? <CheckCircleIcon className="h-3 w-3 mr-1" /> : <XCircleIcon className="h-3 w-3 mr-1" />}
                             {key.replace('_', ' ')}
                           </span>
                         ))}

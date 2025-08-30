@@ -32,7 +32,6 @@ const DashboardGeneratePage = () => {
         )}
         title={t('message_state_title')}
         description={t('message_state_description')}
-        button={<div></div>}
       />
     </>
   );
